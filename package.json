@@ -1,0 +1,16 @@
+{
+  "name": "graphql-prisma-crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "prisma deploy -e variables.env"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "graphql": "^15.1.0",
+    "graphql-cli": "^4.0.0"
+  }
+}

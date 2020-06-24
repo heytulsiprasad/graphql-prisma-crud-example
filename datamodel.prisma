@@ -1,0 +1,6 @@
+type Todo {
+  id: ID! @id
+  title: String!
+  description: String
+  createdAt: DateTime! @createdAt
+}
