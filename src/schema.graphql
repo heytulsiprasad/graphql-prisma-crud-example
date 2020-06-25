@@ -1,7 +1,12 @@
+# import * from "./generated/prisma.graphql"
+
 type Query {
-	hi: String!
+	allTodos: [Todo]!
+	eachTodo(id: ID!): Todo!
 }
 
 type Mutation {
-	hi: String!
+	changeTodo(id: ID!, title: String, description: String): Todo!
+	makeTodo(title: String!, description: String!): Todo!
+	removeTodo(id: ID!): Todo!
 }
